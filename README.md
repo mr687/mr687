@@ -1,16 +1,56 @@
-### Hi there 👋
+![](https://github.com/mr687/mr687/blob/main/header.png)
 
-<!--
-**mr687/mr687** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+// ~/.tmp/Profile/Intro.php
 
-Here are some ideas to get you started:
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace Mr687\Daphinokio;
+
+use Facades\Mr687\Daphinokio\Media;
+use Facades\Mr687\Daphinokio\Profile;
+use Facades\Mr687\Daphinokio\Development;
+
+class Intro
+{
+
+  /**
+  * __invoke()
+  * 
+  * @params array $learning
+  * @return error
+  */
+  public function __invoke(array $learning)
+  {
+    Profile::name = 'Davi Nomoeh Dani';
+    Profile::alias = 'daphinokio'; // 'phi' === 'vi'
+    Profile::email = 'daphinokioo@gmail.com'; // Email address is already taken
+    
+    Media::website = 'https://ngoder.com';
+    Media::instagram = Media::twitter = '@daphinokio';
+    
+    Development::langs = [
+      'backend' => 'php:laravel,codeigniter|javascript:node-js|python',
+      'frontend' => 'html:blade|css:bootstrap,semantic-ui|php:livewire|javascript:jquery,vue-js',
+      'databases' => 'mysql|sqlsrv|sqlite|mongodb'
+    ];
+    Development::misc = [
+      'devops' => 'aws:ec2,rds,lightsail,s3|heroku|nginx|gitlab-ci',
+      'tools' => 'git|postman|vscode',
+      'os' => 'mac-os'
+    ];
+    Development::exp = carbon('2018-01-01')->diffInYears();
+    
+    return $this($learning);
+  }
+  
+}
+
+```
+
+```
+- 🥱 I am currently working on Laravel and NodeJs.
+- 🚀 Available for Freelance projects/internship opportunities.
+```
+
+![](https://visitor-badge.laobi.icu/badge?page_id=mr687.mr687)
