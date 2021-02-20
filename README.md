@@ -39,7 +39,7 @@ class Intro
       'tools' => 'git|postman|vscode',
       'os' => 'mac-os'
     ];
-    Development::exp = carbon('2018-01-01')->diffInYears();
+    Development::experience = carbon('2018-01-01')->diffInYears();
     
     return $this($learning);
   }
