@@ -24,9 +24,8 @@ class Intro
   {
     Profile::name = 'Davi Nomoeh Dani';
     Profile::alias = 'daphinokio'; // 'phi' === 'vi'
-    Profile::email = 'daphinokioo@gmail.com'; // Email address is already taken
+    Profile::email = 'davinomoehdanino@gmail.com'; // Email address is already taken
     
-    Media::website = 'https://ngoder.com';
     Media::instagram = Media::twitter = '@daphinokio';
     
     Development::langs = [
