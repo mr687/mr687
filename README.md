@@ -29,12 +29,12 @@ class Intro
     Media::instagram = Media::twitter = '@daphinokio';
     
     Development::langs = [
-      'backend' => 'php:laravel,codeigniter|javascript:node-js|python',
-      'frontend' => 'html:blade|css:bootstrap,semantic-ui|php:livewire|javascript:jquery,vue-js',
-      'databases' => 'mysql|sqlsrv|sqlite|mongodb'
+      'backend' => 'php:laravel|javascript:node-js|python',
+      'frontend' => 'php:livewire|javascript:react-js,vue-js',
+      'database' => 'postgresql|mysql|mongodb|sqlite'
     ];
     Development::misc = [
-      'devops' => 'aws:ec2,rds,lightsail,s3|heroku|nginx|gitlab-ci',
+      'devops' => 'aws:ec2,rds,lightsail,s3|heroku',
       'tools' => 'git|postman|vscode',
       'os' => 'mac-os'
     ];
@@ -48,8 +48,8 @@ class Intro
 ```
 
 ```
-- 🥱 I am currently working on Laravel and NodeJs.
-- 🚀 Available for Freelance projects/internship opportunities.
+- 🥱 I am currently working on javascript.
+- 🚀 Available for Freelance projects opportunities.
 ```
 
 ![](https://visitor-badge.laobi.icu/badge?page_id=mr687.mr687)
